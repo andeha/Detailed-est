@@ -1,0 +1,9 @@
+/*  To-c++.modules | Scalar 'import Twinbeam;' for c++ projects. */
+
+module Treasure {
+  requires cplusplus
+  header "treasure.h"
+  export *
+/*  link "myfile-1.obj" */
+}
+

@@ -1,0 +1,7 @@
+/* To-swift.modules | C functions also available when linking with swift. */
+
+module Treasure [extern_c] {
+  header "treasure.h"
+  export *
+}
+
