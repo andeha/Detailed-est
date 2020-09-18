@@ -1,9 +1,17 @@
-/*  To-c++.modules | Scalar 'import Twinbeam;' for c++ projects. */
+/*  To-c++.modules | Multiple headers and 'import Twinbeam;' for c++ projects. */
 
 module Treasure {
   requires cplusplus
   header "treasure.h"
-  export *
-/*  link "myfile-1.obj" */
+  /* export print₂ */
+  export print3
+  /* export * */
+  /* module * { export * } a.k.a 'view'. */
+  /* link "myfile-1.obj" */
 }
+
+/* module Treasure [extern_c] {
+ // export int Utf8Sync(uint8_t **ξ);
+} */
+
 
